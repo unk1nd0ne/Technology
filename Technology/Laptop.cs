@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Technology
 {
-    class Laptop : Computer
+    public class Laptop : Computer
     {
         public bool IsConnected { get; set; }
 

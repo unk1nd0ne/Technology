@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Technology
 {
-    class Smartphone : Computer
+    public class Smartphone : Computer
     {
         public double FreeSpace { get; set; }
 

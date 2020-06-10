@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Technology
 {
-    class Computer
+    public class Computer : AbstractIdentity
     {
         public string Processor { get; }
         public int Memory { get; }
         public double Storage { get; }
         public string OperatingSystem { get; }
 
-        public Computer (string processor, int memory, double storage, string operatingSystem)
+        public Computer (string processor, int memory, double storage, string operatingSystem) : base()
         {
             Processor = processor;
             Memory = memory;
